@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directivas';
+  prueba = 'pruebita';
+  constructor() {
+    console.log('constructor entro super genial', this.prueba);
+  }
 }
